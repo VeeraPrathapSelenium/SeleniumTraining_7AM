@@ -17,7 +17,7 @@
     <classes>
      
       <class name="com.Sprint1.Tc01_ValidateSignin"/>
-     
+      <class name="com.Sprint1.Tc02_ValidateInvalidEmailAddress"/>
     </classes>
   </test> <!-- Test -->
   

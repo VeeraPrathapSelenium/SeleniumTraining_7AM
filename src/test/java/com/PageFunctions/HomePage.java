@@ -38,10 +38,13 @@ public class HomePage extends GenericMethods {
 		{
 			new WebDriverWait(driver, 5).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[normalize-space(text())='Sign in']")));
 			Lnk_Signin.click();
+			
+			logEvenet("pass", "Signin link is clicked sucessfully");
 		}catch(Exception e)
 		{
 			status=true;
 			System.out.println(e.getMessage());
+			logEvenet("fail", "Signin link is not clicked sucessfully");
 		}
 		return status;
 	}

@@ -8,11 +8,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.GenericMethods.GenericMethods;
+import com.ReadExcel.ReadExcel;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class Reporting {
+public class Reporting extends ReadExcel{
 	
 	
 	public static ExtentReports extent;
